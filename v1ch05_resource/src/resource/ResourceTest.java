@@ -1,11 +1,14 @@
 package resource;
 
-import java.io.IOException;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.*;
 import javax.swing.*;
 
+/**
+ * @author Cay Horstmann
+ * @version 1.5 2018-03-15
+ */
 public class ResourceTest {
     public static void main(String[] args) throws IOException {
         // 获取 ResourceTest 的 Class 对象
